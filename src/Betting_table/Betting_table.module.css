@@ -1,0 +1,35 @@
+.tableContainer{
+    background-color: white;
+    border-radius: 20px;
+    height: 700px;
+    padding: 20px 20px 20px 20px;
+    overflow: scroll;
+}
+
+
+table {
+    border: 2px solid black;
+    width: 800px;
+    height: 200px;
+    overflow: scroll;
+    border-collapse: collapse;
+}
+
+tr{
+    overflow:auto;
+}
+
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
