@@ -8,7 +8,7 @@
 
 
 table {
-    border: 2px solid black;
+    border: 2px solid #0E3386;
     width: 800px;
     height: 200px;
     overflow: scroll;
@@ -20,16 +20,36 @@ tr{
 }
 
 
+tr:nth-child(even) {
+    background-color:  #F4F7FA;
+}
+
+
+/*tr:hover {*/
+/*    background-color: red,*/
+/*}*/
+
 th {
-    border: 1px solid black;
+    border: 1px solid #0E3386;
+    background-color: #0E3386;
     border-collapse: collapse;
     padding: 7px;
+    font-family: Rubik-SemiBold, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
 }
 
 td {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #0E3386;
     border-collapse: collapse;
+    font-family:Rubik-Regular,sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
 }
 
 

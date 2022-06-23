@@ -9,3 +9,31 @@ img {
 body {
   background-color:#FFFFFF;
 }
+
+
+
+@font-face {
+  font-family: Rubik-SemiBold;
+  src: url(app/assets/fonts/Rubik/Rubik-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(app/assets/fonts/Rubik/Rubik-Medium.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(app/assets/fonts/Rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Light;
+  src: url(app/assets/fonts/Rubik/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Bold;
+  src:  url(app/assets/fonts/Rubik/Rubik-Bold.ttf);
+}
+
