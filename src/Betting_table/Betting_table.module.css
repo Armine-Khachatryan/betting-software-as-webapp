@@ -53,4 +53,75 @@ td {
     letter-spacing: 0.1em;
 }
 
+.selectDivs{
+    display: flex;
+    align-items: end;
+    padding: 20px 20px 20px 20px;
+}
+
+.searchInputSmallDiv{
+    display:flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.labelSearchSmall{
+    font-family: Rubik-Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0E3386;
+    margin-bottom: 10px;
+}
+
+.divForCalendar{
+    position: relative;
+}
+
+.calendarImg{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 16px;
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.inputSearchSmall{
+    padding: 12px 0px 12px 12px;
+    width: 360px;
+    font-family: Rubik-Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    background: #0E3386;
+    border: 1px solid #0E3386;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white
+}
+
+.searchBtn{
+    width: 150px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E3386;
+    border: none;
+    opacity: 1;
+    font-family: Rubik-Regular, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 
