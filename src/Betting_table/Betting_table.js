@@ -21,7 +21,6 @@ function Betting_table() {
         handleSorting(accessor, sortOrder);
     };
 
-
     const handleSorting = (sortField, sortOrder) => {
         let arr = info[0]
         console.log(info[0])
@@ -29,19 +28,19 @@ function Betting_table() {
         console.log(sortField);
 
         const sorted = arr1.sort((a, b) => {
-                  if (a[sortField] === null) return 1;
-                if (b[sortField] === null) return -1;
-                if (a[sortField] === null && b[sortField] === null) return 0;
-                return (
-                    a[sortField].toString().localeCompare(b[sortField].toString(), "en", {
-                        numeric: true,
-                    }) * (sortOrder === "asc" ? 1 : -1)
-                );
-            });
+            if (a[sortField] === null) return 1;
+            if (b[sortField] === null) return -1;
+            if (a[sortField] === null && b[sortField] === null) return 0;
+            return (
+                a[sortField].toString().localeCompare(b[sortField].toString(), "en", {
+                    numeric: true,
+                }) * (sortOrder === "asc" ? 1 : -1)
+            );
+        });
 
         arr = [arr, ...sorted]
         console.log(arr);
-         setInfo(arr);
+        setInfo(arr);
     };
 
 
@@ -56,9 +55,7 @@ function Betting_table() {
                 return item[0]
             }
         })
-
         setInfo([info[0],...resultDate]);
-
     }
 
 
